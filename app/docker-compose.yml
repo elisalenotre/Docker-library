@@ -35,7 +35,7 @@ services:
       - "traefik.enable=true"
       - "traefik.http.routers.front.rule=Host(`front.localhost`)"
       - "traefik.http.routers.front.entrypoints=web"
-      - "traefik.http.services.front.loadbalancer.server.port=3000"
+      - "traefik.http.services.front.loadbalancer.server.port=80"
 
   back:
     build: ./Back
