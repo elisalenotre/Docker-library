@@ -145,3 +145,4 @@ yarn-error.log*
 *.tfvars
 terraform.exe
 
+.terraform*
