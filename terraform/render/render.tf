@@ -8,7 +8,7 @@ variable "render_owner_id" {
 
 terraform {
   backend "local" {
-    path = "../backend.tfstate"
+    path = "backend.tfstate"
   }
   required_providers {
     render = {
